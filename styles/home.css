@@ -1,0 +1,152 @@
+#home {
+    display: flex;
+    min-width: calc(80vh - 50px);
+    position: relative;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .title {
+    font-size: 3.2rem;
+color: #1d1d1d;
+}
+
+#cta .title span {
+    color:  #3d2918;;
+}
+
+#cta .descripition {
+    font-size: 1.4rem;
+}
+ 
+#cta_buttons {
+    display: flex;
+    gap: 24px;
+    font-size: large;
+}
+
+#cta_buttons a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    background-color: #bb977f;
+    border-radius: 12px;
+}
+
+#phone_button button {
+    box-shadow: none;
+}
+
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+}
+
+#banner img {
+    height: 78%;
+    width: fit-content;
+    text-align: center;
+}
+
+.shape {
+    background-color: #bb977f ;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: o;
+    right: 0;
+    z-index: 1;
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+    background-color: #664e34; 
+    position: relative;
+    top: -160px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+    color: white; 
+    margin-bottom: 20px;
+  }
+  
+  .image-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+
+  .image-item:hover {
+    transform: translateY(-10px);
+}
+
+  
+  .image-item {
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: 190px;
+    border-radius: 44px;
+    padding: 22px;
+  }
+  
+  .image-item p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #000000;
+  }
+
+/*Responsividade*/
+
+  @media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+     .section{
+    margin-top: 200px;
+     }
+
+    #banner,
+    #banner img,
+    #home .shape {
+        display: none;  
+    }
+  }
+
+  #cta {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+ 
