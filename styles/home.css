@@ -2,8 +2,6 @@
     display: flex;
     min-width: calc(80vh - 50px);
     position: relative;
-    width: 100%;
-    padding: 10px;
 }
 
 #cta {
@@ -163,6 +161,8 @@ color: #1d1d1d;
     #home {
       min-height: 100%;
       padding-top: 0px;
+      width: 100%;
+      padding: 10px;
   }
    .section{
   margin-top: 200px;
