@@ -2,6 +2,8 @@
     display: flex;
     min-width: calc(80vh - 50px);
     position: relative;
+    width: 100%;
+    padding: 10px;
 }
 
 #cta {
@@ -147,7 +149,7 @@ color: #1d1d1d;
     #home .shape {
         display: none;  
     }
-    
+
       #cta {
     width: 100%;
     text-align: center;
@@ -157,7 +159,7 @@ color: #1d1d1d;
   }
 
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     #home {
       min-height: 100%;
       padding-top: 0px;

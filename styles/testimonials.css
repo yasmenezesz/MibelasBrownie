@@ -83,11 +83,13 @@
 }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 768px) {
     #testimonials {
         flex-direction: column;
         position: relative;
         top: 20px;
+        width: 100%;
+        padding: 10px;
        }
     
        #testimonials .section-subtitle {
