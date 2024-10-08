@@ -77,3 +77,11 @@ section {
    position: relative;
     top: -45px;
 }
+
+
+@media screen and (max-width: 1170px) {
+    section {
+        padding: 28px 8%;
+    }
+    
+}
