@@ -158,7 +158,7 @@ color: #1d1d1d;
 
 
   @media (max-width: 768px) {
-    #home {
+    #cta {
       min-height: 100%;
       padding-top: 0px;
       width: 100%;
@@ -166,6 +166,12 @@ color: #1d1d1d;
       align-items: center;
       font-size: xx-small;
   }
+}
+
+  @media (max-width: 768px) {
+
+  }
+
    .section{
   margin-top: 200px;
    }
