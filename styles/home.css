@@ -153,6 +153,18 @@ color: #1d1d1d;
 
   }
 
+  @media (max-width: 768px) {
+    #cta {
+      min-height: 100%;
+      padding-top: 0px;
+      width: 100%;
+      padding: 10px;
+      align-items: center;
+      font-size: xx-small;
+  }
+}
+
+
 
   @media (max-width: 768px) {
 
