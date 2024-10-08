@@ -133,53 +133,5 @@ color: #1d1d1d;
 
 /*Responsividade*/
 
-  @media screen and (max-width: 1170px) {
-    #home {
-        min-height: 100%;
-        padding-top: 0px;
-    }
-
-    #banner,
-    #banner img,
-    #home .shape {
-        display: none;  
-    }
-
-      #cta {
-    width: 100%;
-    text-align: center;
-    align-items: center;
-  }
-
-  }
-
-  @media (max-width: 768px) {
-    #cta {
-      min-height: 100%;
-      padding-top: 0px;
-      width: 100%;
-      padding: 10px;
-      align-items: center;
-      font-size: xx-small;
-  }
-}
-
-
-
-  @media (max-width: 768px) {
-
-  }
-
-  #banner,
-  #banner img,
-  #home .shape {
-      display: none;
-  }
-    
-  #cta {
-        width: 100%;
-        text-align: center;
-        align-items: center;
-  }
   
-}
+  
