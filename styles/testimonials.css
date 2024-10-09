@@ -61,9 +61,9 @@
 /*------------------------------------------------*/
 
 @media screen and (max-width: 768px) {
-    #testimonial_chef {
+    #testimonials_chef {
         display: none;
     }
 
-    
+
 }
