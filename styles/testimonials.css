@@ -69,4 +69,14 @@
         margin-right: 350px;
     }
 
+    #feedbacks {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 1000px;
+        height: 1000px;
+        position: relative;
+        top: -29px;
+    }
+
 } 
