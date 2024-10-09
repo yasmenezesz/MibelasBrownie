@@ -153,4 +153,9 @@ color: #1d1d1d;
   gap: 10px;
 }
 
+.section {
+  position: relative;
+  top: 160px;
+}
+
 }
