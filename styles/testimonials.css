@@ -65,5 +65,8 @@
         display: none;
     }
 
+    #testimonials_content {
+        margin-right: -800px;
+    }
 
-}
+} 
