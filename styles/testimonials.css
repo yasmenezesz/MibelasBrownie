@@ -89,14 +89,14 @@
         margin-right: 350px;
         position: relative;
         top: 20px;
-        margin-bottom: 20px;
-        padding: 10px;
+        margin-bottom: 30px;
+        padding: 20px;
     }
 
 
     #testimonials {
         width: 750px;
-        margin-top: 64px;
+        margin-top: 40px;
     }
 
 } 
