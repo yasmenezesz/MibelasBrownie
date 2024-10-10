@@ -138,6 +138,7 @@ color: #1d1d1d;
 
   #cta .title {
     font-size: 3.2rem;
+    margin-right: 400px;
   }
 
 #banner img, 
@@ -147,7 +148,6 @@ color: #1d1d1d;
 
 #cta .title {
   text-align: center;
-  margin-right: -800px;
 }
 
 #social-media-buttons {

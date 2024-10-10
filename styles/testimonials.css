@@ -67,11 +67,11 @@
 
     #testimonials_content {
         margin-right: 350px;
+        position: relative;
+        top: 20px;
     }
 
     #feedbacks {
-        position: relative;
-        top: 20px;
         width: 100%;
     }
 
