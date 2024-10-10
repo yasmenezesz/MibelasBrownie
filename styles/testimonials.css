@@ -74,7 +74,26 @@
 
     #testimonials {
         width: 750px;
-        margin-top: 50px;
+        margin-top: 64px;
+    }
+
+} 
+
+@media screen and (max-width: 468px) {
+    #testimonials_chef {
+        display: none;
+    }
+
+    #testimonials_content {
+        margin-right: 350px;
+        position: relative;
+        top: 20px;
+    }
+
+
+    #testimonials {
+        width: 750px;
+        margin-top: 64px;
     }
 
 } 
