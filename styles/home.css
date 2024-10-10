@@ -147,6 +147,7 @@ color: #1d1d1d;
 
 #cta .title {
   text-align: center;
+  margin-right: -800px;
 }
 
 #social-media-buttons {
