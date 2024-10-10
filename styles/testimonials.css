@@ -71,8 +71,9 @@
         top: 20px;
     }
 
-    .feedback {
-        max-width: 100%;
+    .feedback,
+    #feedbacks {
+        max-width: 1200px;
     }
 
 } 
