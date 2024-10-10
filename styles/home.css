@@ -157,3 +157,9 @@ color: #1d1d1d;
   position: relative;
   top: 30px;
 }
+
+#cta {
+  margin-right: -30px;
+}
+
+}
