@@ -1,5 +1,4 @@
 #testimonials {
-    min-width: calc(100vh - 91px);
     display: flex;
     align-items: center;
     justify-content: center;
