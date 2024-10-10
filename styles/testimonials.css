@@ -4,7 +4,6 @@
     justify-content: center;
     gap: 0%;
     position: relative;
-
     top: 40px;
     background-color: #bb977f;
 }
@@ -24,7 +23,7 @@
 }
 
 #testimonials_content {
-    width: 50%;
+    
 }
 
 #feedbacks {
