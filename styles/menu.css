@@ -114,4 +114,10 @@
     #menu .section-subtitle {
         text-align: center;
     }
+
+#menu {
+    position: relative;
+    top: -60px;
+}
+
 }
