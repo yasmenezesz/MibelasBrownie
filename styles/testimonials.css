@@ -75,7 +75,7 @@
 
     #testimonials {
         width: 750px;
-        margin-top: 64px;
+        
     }
 
 } 
@@ -89,7 +89,8 @@
         margin-right: 350px;
         position: relative;
         top: 20px;
-        margin-top: 64px;
+        margin-bottom: 20px;
+        padding: 10px;
     }
 
 
