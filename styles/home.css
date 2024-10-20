@@ -29,6 +29,7 @@ color: #1d1d1d;
     display: flex;
     gap: 24px;
     font-size: large;
+    background-color: #3a5f8a;
 }
 
 #cta_buttons a {
