@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		});
 	}); 
+	
 	ScrollReveal().reveal('#cta', {
 		origin: 'left',
 		duration: 2000,
